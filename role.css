@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+}
+
+body{
+    background-color: #d9d9d9;
+    min-height: 100%;
+}
+
+.navbar{
+    background-color: #e26e55;
+}
+
+.navbar-brand{
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    display: block;
+}
+
+.dropdown-menu{
+    background-color: #e26e55;
+    color: white;
+}
+
+#dropdownMenuButton{
+    background-color: transparent;
+    border: none;
+}
+
+h4{
+    padding-top: 7px;
+    padding-right: 10px;
+    font-family: 'Kanit';
+}
+
+p{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-left:5.5rem;
+    margin-right:5.5rem;
+    padding-top: 0.5rem;
+    color: #000000;
+    text-align: left;
+}
+
+hr{
+    width: 630px;
+    border: none;
+    background-color: black;
+    opacity: 1;
+  
+    padding-bottom: 2.5px;
+    margin-left:5.5rem;
+    margin-right:5.5rem;
+}
+
+#btn1{
+    background: #FF9A7A;
+    border-radius: 20px;
+    border: none;
+    width: 210px;
+    height: 210px;
+    margin-left: 11rem;
+}
+
+#btn2{
+    background: #EADC9D;
+    border-radius: 20px;
+    border: none;
+    width: 210px;
+    height: 210px;
+    margin-right: 11rem;
+}
+
+#btn3{
+    margin-right: 5px;
+    width: 200px;
+    height: 49px;
+  
+    background: #7AF47F;
+    border: 2px solid #000000;
+    box-shadow: inset -5px -5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    line-height: 29px;
+    color: #000000;
+}
+
+#rec20{
+    display:inline-block;
+    width: 9.13px;
+    height: 9.13px;
+    margin-top: 2.5rem;
+    background: white;
+    border-radius: 100px;
+}
+
+#rec21{
+    display:inline-block;
+    width: 22.57px;
+    height: 9.13px;
+
+    background: white;
+    border-radius: 100px;
+}
