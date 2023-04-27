@@ -49,7 +49,7 @@ h4{
 
 #type-dropdown {
   display: flex;
-  width: 1280px;
+  width: 67vw;
   height: 89px;
 
   border-top: 5px solid #000000;
@@ -87,42 +87,30 @@ h4{
     align-items: center;
     flex-direction: column;
     overflow: visible;
+    width: 100%;
 }
   
   .filterDiv {
     background-color: #D9D9D9;
-    width: 305px;
-    height: 400px;
-    /*display: none;*/
+    /*width: 305px;*/
+    width: 15.9vw;
+    aspect-ratio: 305/400;
+    /*height: 400px;*/
     border-radius: 10px;
-    /*overflow: hidden;*/
   }
-  
-  /*
-  .btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: coral;
-    cursor: pointer;
-  }
-  .btn:hover {
-    background-color: #ddd;
-  }
-  .btn.active {
-    background-color: #666;
-    color: white;
-  }*/
+
 
   .cardBoard {
     display: flex;
     align-items: start;
     flex-direction: column;
 
-    width: 1500px;
-    height: 1100px;
+    width: 78vw;
+    aspect-ratio: 1500/1100;
+    /*height: 1100px;*/
     background-image: url("https://cdn.discordapp.com/attachments/1098130742434873384/1100140499941216336/questboard.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .grid {
@@ -131,14 +119,20 @@ h4{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     
-    column-gap: 183px;
+    /*column-gap: 183px;
     row-gap: 60px;
     padding-left: 109.5px;
-    padding-top: 120px;
+    padding-top: 120px;*/
+    column-gap: 9.5vw;
+    row-gap: 3.1vw;
+    padding-left: 5.7vw;
+    padding-top: 6.2vw;
     margin: 0px;
 
-    max-height: 1281px;
-    max-width: 860px;
+    /*max-height: 1281px;
+    max-width: 860px;*/
+    width: 44.8vw;
+    aspect-ratio: 1281/860;
  }
 
  .numPage {
@@ -187,8 +181,10 @@ area {
 }
 
 .btnpage {
-  width: 55px;
-  height: 70px;
+  /*width: 55px;*/
+  width: 2.86vw;
+  /*height: 70px;*/
+  height: 3.6vw;
 
   border: none;
 }
@@ -200,7 +196,8 @@ area {
   background-position: center;
 
   position: relative;
-  right: 40px;
+  /*right: 40px;*/
+  right: 2vw;
 }
 #next {
   background-image: url('https://cdn.discordapp.com/attachments/933974489207832619/1100485451455930468/next.png');
@@ -210,15 +207,18 @@ area {
   background-position: center;
 
   position: relative;
-  left: 40px;
+  /*left: 40px*/;
+  left: 2vw;
 }
 /*.btnpage:hover{
   background-color: #ddd;
 }*/
 
 progress {
-  width: 846px;
-  height: 17px;
+  /*width: 846px;*/
+  width: 44vw;
+  /*height: 17px;*/
+  height: 0.9vw;
   border-radius: 5px;
   background-color: #FFFFFF;
   border: 3px outset #F86161;
@@ -247,12 +247,15 @@ progress::-ms-fill {
 
 #btn-cart {
   position: relative;
-  left: 191px;
+  /*left: 191px;*/
+  left: 9.9vw;
   background-color: transparent;
   border: none;
 
-  width: 130px;
-  height: 130px;
+  /*width: 130px;
+  height: 130px;*/
+  width: 6.8vw;
+  height: 6.8vw;
 
   background-image: url('https://cdn.discordapp.com/attachments/1098130742434873384/1099685806010024026/logo-trans-100.png');
   background-size: cover;
@@ -270,7 +273,9 @@ progress::-ms-fill {
 #menu {
   font-weight: 800;
   font-size: 40px;
+  /*font-size: 2.1vw;*/
   line-height: 48px;
+  /*line-height: 2.5vw;*/
   text-align: center;
 
   color: #000000;
@@ -281,23 +286,29 @@ progress::-ms-fill {
 }
 
 .menu-img {
-  width: 305px;
-  height: 227px;
+  width: 15.9vw;
+  /*height: 227px;*/
+  aspect-ratio: 305/227;
   object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
 }
 .card-content {
   position: relative;
-  left: 30px;
+  /*left: 30px;*/
+  left: 1.6vw;
 }
 .input-group {
   display: flex;
-  height: 30px;
+  /*height: 30px;*/
+  height: 1.6vw;
 
   position: relative;
-  top: 35px;
+  /*top: 35px;*/
+  top: 1.8vw;
 }
 .add-btn {
-  width: 30px;
+  /*width: 30px;*/
+  width: 1.6vw;
   font-weight: 700;
   background-color: #919191;
   border: none;
@@ -309,7 +320,8 @@ progress::-ms-fill {
   border-radius: 0px 5px 5px 0px !important;
 }
 .quantity {
-  width: 90px;
+  /*width: 90px;*/
+  width: 4.7vw;
   text-align: center;
   border: none;
 }
@@ -322,9 +334,11 @@ input[type=number] {
     -moz-appearance:textfield;
 }
 .buy {
-  width: 90px;
+  /*width: 90px;*/
+  width: 4.7vw;
   position: relative;
-  left: 17px;
+  /*left: 17px;*/
+  left: 0.9vw;
   font-weight: 800;
 
   background: #7AF47F;
@@ -337,31 +351,40 @@ input[type=number] {
   display: flex;
 
   position: relative;
-  top: 22px;
+  /*top: 22px;*/
+  top: 1.14vw;
 }
 #baht, #price {
   font-weight: 700;
-  font-size: 24px;
+  /*font-size: 24px;*/
+  font-size: 1.33vw;
 
   position: relative;
-  top: 6px;
+  /*top: 6px;*/
+  top: 0.3vw;
 }
 #baht {
   display: flex;
   position: relative;
-  top: 2px;
-  left: 18px;
+  /*top: 2px;
+  left: 18px;*/
+  top: 0.1vw;
+  left: 0.9vw;
 }
 #shopName {
   position: relative;
-  top: 30px;
+  /*top: 30px;*/
+  top: 1.6vw;
   text-align: start;
 }
 .card-title {
   font-weight: 700;
-  font-size: 26px;
-  line-height: 39px;
-  width: 191px;
+  /*font-size: 26px;*/
+  font-size: 1.35vw;
+  /*line-height: 39px;*/
+  line-height: 1.89vw;
+  /*width: 191px;*/
+  width: 9.9vw;
 
   color: #000000;
   text-shadow: 0px 2px 0px #FFFFFF;
@@ -369,14 +392,17 @@ input[type=number] {
 }
 .card-text {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  /*font-size: 20px;*/
+  font-size: 1vw;
+  /*line-height: 24px;*/
+  line-height: 1.25vw;
 }
 .text {
   font-family: 'Kanit';
   font-style: normal;
 }
 
+/*Cart Form*/
 .form-popup {
   display: none;
   position: fixed;
@@ -385,18 +411,21 @@ input[type=number] {
   border: 3px solid #FFFFFF;
   z-index: 9;
 }
-/* Add styles to the form container */
 .form-container {
   max-width: 400px;
-  width:400px;
-  padding: 10px;
+  /*width:400px;*/
+  width: 20.8vw;
+  /*padding: 10px;*/
+  padding: 0.5vw;
   background-color: #FFFFFF;
 }
 /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {
   width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
+  /*padding: 15px;*/
+  padding: 0.8vw;
+  /*margin: 5px 0 22px 0;*/
+  margin: 0.26vw 0 1.14vw 0;
   border: none;
   background: #FFFFFF;
 }
@@ -409,15 +438,17 @@ input[type=number] {
   border: 2px solid #000000;
   box-shadow: inset -5px -5px 0px rgba(0, 0, 0, 0.25);
 }
-
 #close-btn {
-  width: 35px;
-  height: 35px;
+  /*width: 35px;
+  height: 35px;*/
+  width: 1.8vw;
+  height: 1.8vw;
   position: relative;
   top: 0px;
-  right: 2px;
+  /*right: 2px;*/
+  right: 0.1vw;
 
-  padding: 0px 0 0 10px;
+  padding: 0px 0 0 0.5vw;
   font-size: 100%;
   text-align: start;
   font-weight: 800;
@@ -431,45 +462,48 @@ input[type=number] {
 }
 .cart-title {
   position: relative;
-  top: 5px;
-  left: 20px;
+  /*top: 5px;
+  left: 20px;*/
+  top: 0.26vw;
+  left: 1vw;
 }
-
-/*.cart-list {
-  align-items: start;
-}
-.list-group-item {
-  width: 100%;
-}*/
 .minus-cart {
   position: absolute;
-  left: 10px;
+  /*left: 10px;*/
+  left: 0.5vw;
   border-radius: 5px 0px 0px 5px;
 }
 .cart-item-qty {
-  width: 30px;
   position: absolute;
-  left: 40px;
+  /*width: 30px;
+  left: 40px;*/
+  width: 1.6vw;
+  left: 2.1vw;
   border: 1px solid #000000;
   border-radius: 0px 5px 5px 0px;
 }
 .cart-item-name {
-  min-width: 130px;
   position: absolute;
-  left: 85px;
+  /*min-width: 130px;
+  left: 85px;*/
+  width: 6.8vw;
+  left: 4.4vw;
   text-align: start;
 }
 .cart-baht, .cart-item-price {
   position: relative;
-  left: 90px;
+  /*left: 90px;*/
+  left: 4.7vw;
 }
 .delete-cart {
   position: relative;
-  left: 115px;
+  /*left: 115px;*/
+  left: 6vw;
   border-radius: 5px;
 }
 
-/* Modal */
+
+/* Modal Pop-up*/
 .form-control {
   max-width: 630px;
   width: 630px;
