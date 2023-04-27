@@ -1,0 +1,35 @@
+html, body{
+    height: 100%;
+}
+
+.navbar{
+    background-color: #e26e55;
+}
+
+.navbar-brand{
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    display: block;
+}
+
+.dropdown-menu{
+    background-color: #e26e55;
+    color: white;
+}
+
+#dropdownMenuButton{
+    background-color: transparent;
+    border: none;
+}
+
+h3{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
