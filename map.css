@@ -36,7 +36,7 @@ td:hover {
     margin-right: 0.5em;
 }
 
-#dropdownFloorButton{
+.dropdownFloorButton{
     display: flex;
     right: 0px;
     bottom: 0px;
