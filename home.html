@@ -182,16 +182,17 @@
 
                 <div class = "p-3 d-flex flex-row align-items-center">
                     <h1 class = "text canteen-name"> โรงอาหารสมเด็จพระเทพฯ </h1>
-                    <div class="dropdown">
-                    <button id = "dropdownFloorButton" class="btn btn-secondary dropdown-toggle text" type="button" id="floor-switch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ชั้น 1
-                    </button>
-                    
-                    <div class="dropdown-menu" aria-labelledby="floor-switch">
-                      <a class="dropdown-item" href="#" onclick="switchFloor(1)">ชั้น 1</a>
-                      <a class="dropdown-item" href="#" onclick="switchFloor(2)">ชั้น 2</a>
-                  </div>
-	</div>
+
+                    	<div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle dropdownFloorButton text" type="button" id="floor-switch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ชั้น 1
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="floor-switch">
+                        <a class="dropdown-item" href="#" onclick="switchFloor(1)">ชั้น 1</a>
+                        <a class="dropdown-item" href="#" onclick="switchFloor(2)">ชั้น 2</a>
+                      </div>
+                    </div>
+
                 </div>
 
                 <table class = "main-map" id="floor1">
